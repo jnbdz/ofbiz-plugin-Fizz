@@ -25,7 +25,15 @@ under the License.
     <!-- ========================================================= -->
     <title>Entity of Fizz Component</title>
     <description>None</description>
-    <copyright></copyright>
-    <version></version>
+    <copyright>Jean-Nicolas Boulay Desjardins</copyright>
+    <version>1.0</version>
+
+    <entity entity-name="FizzInvoices" package-name="com.sitenetsoft.opensource.fizz" title="Fizz Entity">
+        <field name="fizzId" type="id"><description>primary sequenced ID</description></field>
+        <field name="date" type="name"></field>
+        <field name="amount" type="name"></field>
+        <!--<field name="invoiceFilePath" type="string"></field>-->
+        <prim-key field="fizzId"/>
+    </entity>
 
 </entitymodel>
